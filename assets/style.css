@@ -1,0 +1,52 @@
+    @font-face {
+        font-family: "myfont";
+        src: url("./assets/font/OldeEnglish.ttf");
+    }
+
+h1 {
+    text-align: center;
+}
+
+.jumbotron-fluid {
+    background-image: url("./assets/images/NY-Times-Search.jpg");
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+}
+
+#topborder {
+    background-color: black;
+    color: white;
+    font-family: "myfont";
+    font-size: 2.0em;
+    height: 53px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 7px;  
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.formCSS {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+.border {
+    border-style: solid;
+    border-color: black;
+    border-bottom-style: white;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.btn-secondary {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
